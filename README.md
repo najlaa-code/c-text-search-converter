@@ -9,6 +9,22 @@ This C program searches through text files in a certain directory for a certain 
 - Sorted report showing files with the most changes first
 - Memory-efficient file processing
 
+## Project Structure
+```
+c-text-search-converter/
+├── README.md
+├── Makefile
+├── .gitignore
+├── src/
+│   ├── main.c          # Entry point and directory traversal
+│   ├── traversal.c     # File opening and processing coordination
+│   ├── text.c          # Core text processing and word replacement
+│   └── report.c        # Change tracking and report generation
+├── include/
+│   ├── traversal.h     # Traversal function declarations
+│   ├── text.h          # Text processing function declarations
+│   └── report.h        # Report function declarations
+
 ## Building
 ```bash
 make

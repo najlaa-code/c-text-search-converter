@@ -25,6 +25,7 @@ c-text-search-converter/
 │   ├── text.h          # Text processing function declarations
 │   └── report.h        # Report function declarations
 
+
 ## Building
 ```bash
 make

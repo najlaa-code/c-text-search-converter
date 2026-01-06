@@ -24,7 +24,7 @@ c-text-search-converter/
 │   ├── traversal.h     # Traversal function declarations
 │   ├── text.h          # Text processing function declarations
 │   └── report.h        # Report function declarations
-
+```
 
 ## Building
 ```bash
